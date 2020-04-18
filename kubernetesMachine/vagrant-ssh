@@ -1,0 +1,33 @@
+Host kmaster
+  HostName 127.0.0.1
+  User vagrant
+  Port 2222
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /cygdrive/c/Users/jaram/Desktop/k8s_ubuntu/.vagrant/machines/kmaster/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host kworker1
+  HostName 127.0.0.1
+  User vagrant
+  Port 2200
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /cygdrive/c/Users/jaram/Desktop/k8s_ubuntu/.vagrant/machines/kworker1/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
+Host kworker2
+  HostName 127.0.0.1
+  User vagrant
+  Port 2201
+  UserKnownHostsFile /dev/null
+  StrictHostKeyChecking no
+  PasswordAuthentication no
+  IdentityFile /cygdrive/c/Users/jaram/Desktop/k8s_ubuntu/.vagrant/machines/kworker2/virtualbox/private_key
+  IdentitiesOnly yes
+  LogLevel FATAL
+
